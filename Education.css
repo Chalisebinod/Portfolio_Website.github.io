@@ -1,0 +1,95 @@
+body{
+    color: white;
+ position: 0;
+ margin: 0;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(Education.jpg);
+ background-size: cover;
+    background-position: center;
+    font-weight: bolder;
+}
+table{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+     transform: translate(-50%,-50%);
+     border-collapse: collapse;
+     width: 650px;
+     height: 200px;
+     border: 1px solid rgb(255, 0, 234);
+     
+}
+th{
+    border:3px solid rgb(91, 4, 253);
+    border-collapse: collapse;
+}
+td{
+    border:3px solid rgb(91, 4, 253);
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    font-size: 5vh;
+    font-weight: bolder;
+    color: purple;
+    padding-top: 10px;
+}
+h2{
+text-align: center;
+ font-size:xx-large ;
+font-weight: bolder;
+color: purple;
+padding-top: 250px
+}
+li{
+    align-items: center;
+   text-align: center;
+   font-size: larger;
+   font-weight: bolder;
+   color: rgb(250, 250, 250);
+}
+footer{
+    text-align: center;
+    padding-top: 40px;
+    font-size: larger;
+    font-weight: bolder;
+    color: black;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid purple;
+    background: transparent;
+    color: aliceblue;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+ }
+ span{
+    background: #f3f727;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+ }
+ button:hover span{
+    width: 100%;
+ }
+ button:hover{
+    border: none;
+ }
+.Next{
+    padding-left: 65%;
+    padding-top: -3%;
+ }
+ 

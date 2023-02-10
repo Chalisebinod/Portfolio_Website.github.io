@@ -1,0 +1,81 @@
+body{
+    background-image: url("contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:left;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: medium;
+
+}
+
+
+
+h1{
+    font-size: 5vh;
+    text-align: center;
+    color: purple;
+    font-weight: bolder;
+}
+form{
+    
+
+border:3px solid purple;
+    margin-right: 35%;
+    margin-left: 35%;
+}
+li{
+    list-style: none;
+    padding: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+footer{
+    text-align: center;
+    color: rgb(235, 11, 97);
+    font-size: large;
+    margin-top: 3%;
+    font-weight: bolder;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-weight: bolder;
+}
+button{
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid purple;
+    background: transparent;
+    color: rgb(241, 10, 10);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+
+ }
+ span{
+    background: #f3f727;
+    height: 100%;
+    width: 0%;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+
+ }
+ button:hover span{
+    width: 100%;
+
+ }
+.Next{
+    padding-left: 65%;
+    padding-top: -3%;
+ }
